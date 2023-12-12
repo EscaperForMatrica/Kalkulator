@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: slategrey;
+}
+
+#Block1{
+    background-color: aqua;
+    border-radius: 5px;
+    margin-top: 15%;
+}
+
+#Block1 h2{
+    color: white;
+    font-weight: 900;
+}
+
+#Block1 span{
+    color: red;
+}
+
+#Block1 button{
+    border: none;
+    width: 50px;
+    color: white;
+    background-color: steelblue;
+    cursor: pointer;
+    transition: 0,5ms;
+}
+
+#Block1 button:active{
+    transform: scale(1.1);
+}
+
+#Block1 #button1{
+    width: 100px;
+    border-radius: 5px;
+}
+
+#Block1 input{
+    border-radius: 3px;
+    border: none;
+    height: 20px;
+    box-shadow: 1px 2px 5px 3px gray;
+}
